@@ -1,5 +1,5 @@
 import expect from "expect";
-import globalStyle from "../../src/creational/singleton/Singleton";
+import globalStyle from "../../../src/creational/singleton/Singleton";
 
 test('Hello World Test', () => {
     globalStyle.setPropertyValue("color", "red");
